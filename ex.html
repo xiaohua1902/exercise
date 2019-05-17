@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+	<script>
+  alert(a);
+  var a=1;
+  alert(a);
+  function a(){alert(2)}
+  alert(a);
+  var a=3;
+  function a(){alert(4)};
+  alert(a);
+</script>
+
+ </head>
+ <body>
+<!-- 把文本框中录入的内容，变为div中h1>a的内容 -->
+	<input type="text" id="t1">
+	<div id="d1"></div>
+	<button onclick="show()">提交</button>
+	<script>
+		function show(){
+			//把文本框中录入的内容，变为div中h1>a的内容  t1.value
+			d1.innerHTML="<h1><a href='#'>"+t1.value+"</a></h1>";
+		}
+	</script>
+ </body>
+</html>
+
+
+
+
+
+
+
+
